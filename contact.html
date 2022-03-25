@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web Development</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='teststyle.css'>
+    <script src='main.js'></script>
+    <style>
+        .contact-box {
+            width: 40%;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+    
+        .contact-form h2 {
+            margin-top: 30px;
+        }
+    
+        label {
+            display: inline-block;
+            margin-bottom: .5rem;
+            margin-top: 0.5rem;
+        }
+    
+        input[type="text"],
+        input[type="email"] {
+            padding: 10px 5px;
+            width: 100%;
+            background: #f7f7f7;
+        }
+    
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 5px 30px;
+            background: #9809;
+            cursor: pointer;
+            display: inline-flex;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="wrap">
+        <header class="wrapper">
+            <div class="container">
+                <div class="box">
+                    <div class="logo">
+                        <a href="index.html">
+                            <h3>Logo</h3>
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Skills</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="contact-box">
+            <div class="container">
+                <div class="contact-form">
+                    <h2>Touch With Me</h2>
+                </div>
+                <form action="/" method="POST" id="my_form">
+                    <label for="name">Name</label>
+                    <input id="username" type="text" name="name" placeholder="Enter Your Name">
+                    <label for="contact">Contact</label>
+                    <input type="text" name="number" placeholder="Enter Your Number">
+                    <label for="contact">Email</label>
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                    <label for="textarea">Message</label>
+                    <textarea name="message" id="mesdsage" cols="77" rows="10" placeholder="Your Message..."></textarea>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

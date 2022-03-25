@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header.wrapper{
+    padding : 10px 0;
+    background: #000;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin-right: 30px;
+}
+.logo a{
+    text-decoration: none;
+    display: green;
+    margin: 0;
+    color: red;;
+}
+.logo h3{
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: 600;
+}
+nav.menu{
+    overflow: hidden;
+}
+nav.menu ul{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding : 0;
+}
+nav.menu ul li{
+    display: inline-block;
+    line-height: 45px;
+    height: 45px;
+    padding: 0 20px;
+}
+nav.menu ul li a{
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+}
+nav.menu ul li a:before{
+    content: '';
+    background: #FFF;
+    height: 2px;
+    width: 0;
+    bottom: 5px;
+    left: 0;
+    position: absolute;
+}
+nav.menu ul li a:hover:before{
+    width: 100%;
+    transition: linear 0.5s;
+}
+.content-body{
+    overflow: hidden;
+   background: #0303AF;
+}
+.content{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+.content-left{
+    width: 50%;
+    padding-top: 50px;
+    float: left;
+}
+.content-left .details h2{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.content-left span{
+    display: block;
+}
+.content-left .details span.hello{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 600; 
+}
+.content-left .details span.name{
+    color: Red;
+    font-size: 75px;
+    font-family: cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    text-shadow: 0 5px 6px rgba(0, 0, 0, 0.45);
+}
+.content-left .details p{
+    color: #f5f2f2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 145%;
+    margin-top: 15px;
+}
+.content-left .personal-button ul{
+    list-style: none;
+    margin: 0;
+    padding-top: 23%;;
+}
+.content-left .personal-button ul li{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px #FFF solid;
+    border-radius: 30px;
+    transition: 0.5s linear;
+}
+.content-left .personal-button ul li:hover{
+    background: #FFF;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.content-left .personal-button ul li:hover a{
+    color: #000;
+}
+.content-left .personal-button ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.content-right{
+    width: 50%;
+    float: left;
+}
+.content .image img{
+    height: auto;
+    width: 100%;
+}
+.copyright{
+   margin-top: 15%;
+}
+.copyright p{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: cursive;
+    color: #f5f2f2;
+}
